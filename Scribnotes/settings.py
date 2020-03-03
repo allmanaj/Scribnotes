@@ -13,7 +13,6 @@ SECRET_KEY = os.environ['SCRIBNOTES_SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['scribnotesapp.herokuapp.com', 'localhost', '127.0.0.1']
 
 INSTALLED_APPS = [
     'crispy_forms',
@@ -133,3 +132,6 @@ CKEDITOR_CONFIGS = {
 
 prod_db = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(prod_db)
+
+ALLOWED_HOSTS = ['scribnotesapp.herokuapp.com', 'localhost', '127.0.0.1']
+
