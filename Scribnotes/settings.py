@@ -133,5 +133,5 @@ CKEDITOR_CONFIGS = {
 prod_db = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(prod_db)
 
-ALLOWED_HOSTS = ['scribnotesapp.herokuapp.com', 'localhost', '127.0.0.1', 'testingsite.pyhost.io', 'anothertrysite.pyhost.io']
+ALLOWED_HOSTS = ['scribnotesapp.herokuapp.com', 'localhost', '127.0.0.1', 'testingsite.pyhost.io', 'anothertrysite.pyhost.io', 'onemoresitetime.pyhost.io']
 #ALLOWED_HOSTS = []
