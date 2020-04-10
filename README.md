@@ -1,7 +1,7 @@
 # Scribnotes
 
 Scribnotes is a note-taking web application where students can efficiently take notes, access them, and compartmentalize them into appropriate courses, academic terms, and schools.
-update
+update2
 
 ### Why?
 
